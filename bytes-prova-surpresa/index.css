@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://cdn.discordapp.com/attachments/1126534268198334504/1133345896654971020/logoBytes.png");
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-list-item {
+  color: white;
+  font-size: 20px;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+
+.logo-container {
+  height: 100px;
+  width: 185px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+}
+
+.section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lock-image {
+  height: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-card {
+  margin-top: -100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  border-radius: 2px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.form-element {
+  width: 200px;
+  margin: 12px 0px;
+  flex-direction: column;
+}
